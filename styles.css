@@ -16,10 +16,78 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    
+}
+
+.footer {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
 }
 
 ul {
     display: flex;
     gap: 10px;
     list-style: none;
+}
+
+.intro {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+.intro .text {
+    max-width: 400px;
+    margin-bottom: 12px;
+    
+}
+
+.intro .text p {
+    margin-bottom: 16px;
+}
+
+.sign {
+    background-color: #3882fb;
+    color: #f9faf8;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0
+
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    
+}
+
+.topimg {
+    margin-bottom: 24px;
+    
+}
+
+.second h2 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.inners {
+    border-radius: 10px;
+    border: 2px solid #3882fb;
+    margin-bottom: 16px;
+}
+
+.card p {
+    max-width: 200px;
+    text-align: center;
+    text-justify:distribute
 }
